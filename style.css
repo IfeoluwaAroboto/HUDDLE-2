@@ -57,7 +57,7 @@ margin: 30px;}
     .btn-2 :hover{
         background-color: pink;
     }
-    .mockup{  padding-top:20px;
+    .mockup{ 
  width:300px;
     }
 .mockups{
@@ -447,8 +447,9 @@ button .btn-3{
 .sixth{display:flex;
     padding-top: 70px;
     background-color: hsl(213, 19%, 18%);
-    height: 350px;
+    min-height: 100vh;
     padding-left: 30px;
+
 }
 svg{ position: relative;
     left: -35px;
