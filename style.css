@@ -57,11 +57,10 @@ margin: 30px;}
     .btn-2 :hover{
         background-color: pink;
     }
-    .mockup{ diplay: relative; 
-top: -120px;
+    .mockup{
  width:300px;
     }
-.mockups{
+.mockups{ padding-top: -20px;
     display: flex;
     justify-content: center;
 }
