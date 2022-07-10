@@ -5,6 +5,7 @@
     padding: 0;
     text-decoration: none;
 }
+
 @media only screen and (max-width: 890px){
     
 
@@ -193,15 +194,7 @@ svg{ position: relative;
     width: 150px;
 }
 
-.social-media a{ font-size: 30px;
-    color: white;
-    border: 1px solid white;
-    border-radius: 50%;
-    padding: 10px;
-  }
-  .social-media a :hover{ 
-    color: hotpink;
-  }
+
 .location{ display: flex;
     font-size: 16px;
     color: white;
@@ -243,18 +236,51 @@ svg{ position: relative;
    .link :hover{
        text-decoration: underline;
    }
-   .social-media {font-size: 20px;
-       display: flex;
-      justify-content: center;
-       list-style: none;
-     gap: 30px;
-     padding-top: 20px;
-      padding-bottom: 20px;
-     }}
-     .link-2{ flex-direction: column;
-        display: flex;
-        gap: 8px;
+.social-media{ padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    column-gap: 20px;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+   
+   .social-media a {
+    width: 60px;
+    height:60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    list-style: none;
+    font-size: 26px;
+    color:#ffff;
+    border-radius: 50%;
+    outline: 2px solid #ffff;
+    transition-property: outline-offset, outline-color, background-color;
+    transition-duration: .25s;
      }
+     .iconss :hover{
+outline-offset: 4px;
+     }
+    .iconss :hover{ color:hotpink;
+    
+   animation: shake .25s ;
+    }
+    .attribution{
+        text-align: center;
+        padding-top: 30px;
+        }
+     .attribution a{ text-decoration: none;
+        }
+        .link-2{ flex-direction: column;
+            display: flex;
+            gap: 8px;
+         }
+
+}
+
+    
 
      @media screen and (min-width: 890px)  {
 body{
@@ -320,7 +346,6 @@ body{
  
 .box-1{
     background-color: hsl(213, 19%, 18%);
-    
            border: 1px  hsl(213, 19%, 18%) soild ;
            width: 990px;  
            padding-top: 40px;; 
@@ -332,14 +357,19 @@ body{
    .together p{ padding-top: 15px;
      font-size: 15px;
      padding-right: 40px;
+     padding-left: 22px;
+
+     padding-top: 40px;
      line-break: auto;
    }
    .grow-together{ padding-bottom: 20px;
     width: 300px;
-    padding-left: 40px;
-    
+    padding-right:30px;
+ 
    }
 .grow{ display: grid;
+    direction: rtl;
+    text-align: center;
     grid-template-columns:  5fr 5fr;
     padding-top: 50px;
 }
@@ -403,6 +433,8 @@ body{
 .users{ display: grid;
     grid-template-columns:  5fr 5fr;
     padding-top: 50px;
+    direction: rtl;
+    text-align: center;
 }
 .fourth{ display: flex;
     justify-content: center;
@@ -449,6 +481,8 @@ button .btn-3{
     background-color: hsl(213, 19%, 18%);
     height: 350px;
     padding-left: 30px;
+    width: auto;
+    overflow: hidden;
 }
 svg{ position: relative;
     left: -35px;
@@ -458,15 +492,7 @@ svg{ position: relative;
 .logo-2{
     width: 150px;
 }
-.social-media a{ font-size: 30px;
-    color: white;
-    border: 1px solid white;
-    border-radius: 50%;
-    padding: 10px;
-  }
-  .social-media a :hover{
-    color: hotpink;
-  }
+
 .location{ display: flex;
     font-size: 16px;
     color: white;
@@ -498,31 +524,67 @@ svg{ position: relative;
     display: flex;
     font-size: 17px;
     gap: 10px;
+   align-items: center;
+   justify-items: center;
+   padding-left: 300px;
     position: relative;
     top: -150px;
-    left: 700px;
+    left: 400px;
    }
    .link a { color:white;
        text-decoration: none;
    }
+   link a :hover{
+    color: hotpink;
+   }
    .copyright{ text-align: center;
  color: white;
- position: relative;
- top: 220px;
- left: 360px;
+ text-align: center;
+ padding-top: 220px;
    }
    .link :hover{
        text-decoration: underline;
    }
-   .social-media {font-size: 20px;
-       display: flex;
-      justify-content: center;
-       list-style: none;
-     gap: 30px;
-position: relative;
-top: -300px;
-left: 850px;
+   .social-media{ padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    column-gap: 20px;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 220px;
+    left: 90px;
+}
+   
+   .social-media a {
+    width: 50px;
+    height:50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    list-style: none;
+    font-size: 26px;
+    color:#ffff;
+    border-radius: 50%;
+    outline: 2px solid #ffff;
+    transition-property: outline-offset, outline-color, background-color;
+    transition-duration: .25s;
      }
+     .iconss :hover{
+outline-offset: 4px;
+     }
+    .iconss :hover{ color:hotpink;
+    
+   animation: shake .25s ;
+    }
+    .attribution{
+        text-align: center;
+        padding-top: 30px;
+        }
+     .attribution a{ text-decoration: none;
+        }
 .link-2{ flex-direction: column;
     display: flex;
     gap: 10px;
