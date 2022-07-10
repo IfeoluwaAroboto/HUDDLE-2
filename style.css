@@ -31,14 +31,14 @@ body{
     width: 130px;
     height: 30px;
 }
-.text{ padding-top: 40px;
+.text{ padding-top:80px;
     text-align: center;
 margin: 30px;}
 
    .text h2{
         text-transform:capitalize ;
     }
-    .text p{ padding-top: 20px;
+    .text p{ padding-top:20px;
         font-size: 15px;
     }  
     .btn-2{padding-top: 20px;
@@ -58,7 +58,7 @@ margin: 30px;}
     .btn-2 :hover{
         background-color: pink;
     }
-    .mockup{  padding-top: 40px;
+    .mockup{
  width:300px;
     }
 .mockups{
@@ -479,10 +479,14 @@ button .btn-3{
 .sixth{display:flex;
     padding-top: 70px;
     background-color: hsl(213, 19%, 18%);
-    height: 350px;
+    min-height: 100vh;
     padding-left: 30px;
+<<<<<<< HEAD
     width: auto;
     overflow: hidden;
+=======
+
+>>>>>>> 058e27f340136d19b055841fdc2fe4b49f1fb306
 }
 svg{ position: relative;
     left: -35px;
